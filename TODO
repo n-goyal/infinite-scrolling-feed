@@ -1,0 +1,14 @@
+Routes/Pages: 
+    ✔ /home @done(21-12-09 12:57)
+    ✔ /feed @done(21-12-09 12:57)
+    ✔ login page @done(21-12-09 12:57)
+
+Buttons:
+    ✔ login @done(21-12-09 12:57)
+    ✔ logout @done(21-12-09 12:57)
+
+Features:
+    ☐ generate user feed
+    ☐ initially show partial list
+    ☐ when user scrolls to end of page, show loading and load more contacts after a delay of 1 sec
+    ☐ use javascript/react apis for scrolling
