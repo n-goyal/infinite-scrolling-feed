@@ -20,11 +20,23 @@ export default function Auth() {
   };
 
   const formElement = (
+    <>
     <form onSubmit={handleSubmit}>
+    <div className="title">
+      Contact List - Infinite Scroll
+    </div>
+    <div  className="creds">
+      <span>
+        username - foo
+      </span>
+      <br />
+      <span>
+        password - bar
+      </span>
+      </div>
     <label className="input-label" htmlFor="username">
       Username: 
       <input
-        
         type="text"
         name="username"
         id="username"
@@ -44,6 +56,7 @@ export default function Auth() {
     </label>
     <input type="submit" className="login-btn" value="Submit" />
   </form>
+  </>
   )
 
   const renderElement = isLoggedIn ? <Navigate to='/home' /> : formElement;

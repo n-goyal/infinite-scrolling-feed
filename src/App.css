@@ -3,16 +3,29 @@
 }
 
 form {
-  height: 250px;
+  height: 300px;
   width: 400px;
-  top: 50vh; 
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border: salmon solid 1px; 
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.creds {
+  color:#282c34;
+}
+
+.title {
+  padding: 2px;
+  color: salmon;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .input-label {
@@ -34,6 +47,8 @@ form {
   letter-spacing: 2px;
   background-color: #61dafb;
   border-color: #61dafb;
+  padding: 5px;
+  font-size: 15px;
 }
 
 .App-logo {
