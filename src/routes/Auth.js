@@ -1,4 +1,5 @@
 import useLocalStorage from "../hooks/useLocalStorage";
+import React from 'react';
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 
@@ -20,9 +21,10 @@ export default function Auth() {
 
   const formElement = (
     <form onSubmit={handleSubmit}>
-    <label htmlFor="username">
-      Username:
+    <label className="input-label" htmlFor="username">
+      Username: 
       <input
+        
         type="text"
         name="username"
         id="username"
@@ -30,8 +32,8 @@ export default function Auth() {
         onChange={(e) => setUsername(e.target.value)}
       />
     </label>
-    <label htmlFor="password">
-      Password:
+    <label className="input-label" htmlFor="password">
+      Password: 
       <input
         type="text"
         name="password"
@@ -40,11 +42,11 @@ export default function Auth() {
         onChange={(e) => setPassword(e.target.value)}
       />
     </label>
-    <input type="submit" value="Submit" />
+    <input type="submit" className="login-btn" value="Submit" />
   </form>
   )
 
   const renderElement = isLoggedIn ? <Navigate to='/home' /> : formElement;
-  
+
   return renderElement
 }

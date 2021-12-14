@@ -2,9 +2,62 @@
   text-align: center;
 }
 
+form {
+  height: 250px;
+  width: 400px;
+  top: 50vh; 
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: salmon solid 1px; 
+}
+
+.input-label {
+  font-size: 20px;
+}
+
+.logout-btn {
+  margin: 10px;
+  text-transform: capitalize;
+  padding: 15px;
+  font-size: large;
+  background-color: #61dafb;
+  border-color: #61dafb;
+  letter-spacing: 2px;
+}
+
+.login-btn {
+  margin: 5px;
+  letter-spacing: 2px;
+  background-color: #61dafb;
+  border-color: #61dafb;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.card-img, .img {
+  height: 350px;
+  width: 350px;
+  margin: auto;
+}
+
+.card-details {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.card-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border: #61dafb solid 2px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

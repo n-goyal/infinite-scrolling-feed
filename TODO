@@ -8,7 +8,13 @@ Buttons:
     ✔ logout @done(21-12-09 12:57)
 
 Features:
-    ☐ generate user feed
-    ☐ initially show partial list
-    ☐ when user scrolls to end of page, show loading and load more contacts after a delay of 1 sec
-    ☐ use javascript/react apis for scrolling
+    ✔ generate user feed @done(21-12-14 11:48)
+    ✔ initially show partial list @done(21-12-14 11:48)
+    ✔ when user scrolls to end of page, show loading and load more contacts after a delay of 1 sec @done(21-12-14 11:48)
+    ✔ use javascript/react apis for scrolling - from scratch basically @done(21-12-14 11:48)
+
+styling:
+    ☐ contact card
+    ☐ contact list
+    ☐ minimal borders only and change color next page items
+    
